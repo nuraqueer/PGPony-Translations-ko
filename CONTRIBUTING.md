@@ -91,6 +91,22 @@ its English source. `status.py` prints how many strings each language still has
 untranslated. Please make sure the validator passes before opening a pull
 request.
 
+## Prefer not to touch code or GitHub?
+
+Email **norsehorse@norsehor.se** with the language you want to work on. You will
+receive a four-column spreadsheet (English, Translation, Context, Changes),
+generated with `tools/make_review_tsv.py`. Fill in the blank translations, or
+write a fix in the **Changes** column for rows that already have one, and send
+it back. A maintainer applies it to the app. No GitHub account needed.
+
+Maintainers: generate a sheet for any language and platform with
+
+```
+python3 tools/make_review_tsv.py ios ru
+python3 tools/make_review_tsv.py android de
+python3 tools/make_review_tsv.py desktop fr
+```
+
 ## Review
 
 Every change is reviewed by a maintainer (and, where possible, a native

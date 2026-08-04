@@ -46,3 +46,18 @@ the source of truth for all of them.
 
 Machine translation is a starting point, not the goal. Corrections from native
 speakers are the whole point of this repo.
+
+## Don't use GitHub?
+
+You do not need a GitHub account to help. Email **norsehorse@norsehor.se** and
+say which language you want to work on. You will get back a simple spreadsheet
+with four columns:
+
+| English | Translation | Context | Changes |
+| --- | --- | --- | --- |
+| the source text | the current translation, or blank | where it is used | your notes go here |
+
+Fill in the blanks, or put a correction in the **Changes** column for any row
+that already has a translation, then send the file back. It opens in Numbers,
+Excel, Google Sheets, or LibreOffice. A maintainer merges your work into the
+app. That is the whole process.
