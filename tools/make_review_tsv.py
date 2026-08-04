@@ -20,7 +20,7 @@ already have a translation. Send the finished sheet back and a maintainer merges
 it. Open the file in any spreadsheet app (Numbers, Excel, LibreOffice, Sheets)
 and keep the tab-separated format when you save.
 """
-import csv, json, os, sys
+import csv, json, os, re, sys
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -54,16 +54,36 @@ def load_xml(path):
             out[node.get('name')] = ''.join(node.itertext())
     return out
 
+def load_xml_with_comments(path):
+    """Return name -> (value, nearest preceding <!-- section comment -->)."""
+    parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
+    root = ET.parse(path, parser=parser).getroot()
+    out = {}
+    current = ''
+    for node in root:
+        if node.tag is ET.Comment:
+            text = ' '.join((node.text or '').split())
+            # banner rules (runs of box-drawing chars) become a colon separator,
+            # so a "Title ═══ description" comment reads as "Title: description"
+            text = re.sub(r'[═─━╌╍]{2,}', ' : ', text)
+            text = re.sub(r'\s*:\s*', ': ', text).strip(' :\t═─━╌╍')
+            if text:
+                current = text
+        elif node.tag == 'string' and node.get('name'):
+            out[node.get('name')] = (''.join(node.itertext()), current)
+    return out
+
 def rows_androidlike(platform, lang):
-    base = load_xml(os.path.join(ROOT, platform, 'values', 'strings.xml'))
+    base = load_xml_with_comments(os.path.join(ROOT, platform, 'values', 'strings.xml'))
     tr_path = os.path.join(ROOT, platform, f'values-{lang}', 'strings.xml')
     tr = load_xml(tr_path) if os.path.exists(tr_path) else {}
     out = []
-    for name, en in base.items():
+    for name, (en, comment) in base.items():
         cur = tr.get(name, '')
         if cur == en:
             cur = ''  # same as English means untranslated
-        out.append([en, cur, name, ''])
+        ctx = f'{comment}  ({name})' if comment else name
+        out.append([en, cur, ctx, ''])
     return out
 
 def main():
