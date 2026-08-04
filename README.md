@@ -35,6 +35,16 @@ the source of truth for all of them.
 | Russian (ru) | yes | not yet | not yet |
 | Chinese, Simplified (zh-Hans) | yes | not yet | not yet |
 
+## New languages welcome
+
+The list above is only where we are today, not a limit. If your language is not
+there yet, please add it. A language nobody has started is just as welcome as a
+fix to an existing one, and you do not have to translate everything at once:
+anything left untranslated falls back to English until someone fills it in.
+See "Adding a brand new language" in CONTRIBUTING.md, or, if you would rather
+not use GitHub, email norsehorse@norsehor.se and ask for a starter sheet in
+your language.
+
 ## I want to help
 
 1. Read **GLOSSARY.md**. It lists the words that must never be translated
