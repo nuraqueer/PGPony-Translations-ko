@@ -32,7 +32,7 @@ the source of truth for all of them.
 | French (fr) | yes | yes | yes |
 | Japanese (ja) | yes | yes | yes |
 | Portuguese, Brazil (pt-BR) | yes | yes | yes |
-| Russian (ru) | yes | not yet | not yet |
+| Russian (ru) | yes | yes | not yet |
 | Chinese, Simplified (zh-Hans) | yes | not yet | not yet |
 
 ## New languages welcome

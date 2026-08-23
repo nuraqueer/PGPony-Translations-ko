@@ -92,8 +92,20 @@ for platform in ('android', 'desktop'):
             if base_name not in src_map and name not in src_map:
                 continue  # extra key; not our job here
             src = src_map.get(name, src_map.get(base_name, ''))
-            if types(val) != types(src):
-                errors.append(f'{platform} [{lang}] {name!r}: source {types(src)} != {types(val)}')
+            # Accepted placeholder sets for this value. Normally just the matching
+            # source form. For a PLURAL item we also accept the canonical 'other'
+            # form's placeholders: per GLOSSARY.md, a language's 'one'/'few'/'many'
+            # form must still carry the count placeholder even when English hard-
+            # codes the number (English "One key needs regenerating" has none, but
+            # Russian's 'one' category covers 1, 21, 31 ... and must show "%1$d").
+            allowed = {tuple(types(src))}
+            if isinstance(name, tuple):
+                other = src_map.get((base_name, 'other'))
+                if other is not None:
+                    allowed.add(tuple(types(other)))
+            if tuple(types(val)) not in allowed:
+                exp = ' or '.join(str(list(a)) for a in sorted(allowed))
+                errors.append(f'{platform} [{lang}] {name!r}: source {exp} != {types(val)}')
 
 if errors:
     print(f'PLACEHOLDER ERRORS: {len(errors)}')
