@@ -119,63 +119,63 @@
          Lock screen (Phase A11)
          ════════════════════════════════════════════════════════════════ -->
     <string name="lock_screen_tagline">Your keys are stabled</string>
-    <string name="lock_screen_unlock_button">Unlock</string>
-    <string name="lock_prompt_title">Unlock PGPony</string>
-    <string name="lock_prompt_subtitle">Authenticate to access your keys</string>
+    <string name="lock_screen_unlock_button">잠금 해제</string>
+    <string name="lock_prompt_title">PGPony 잠금 해제</string>
+    <string name="lock_prompt_subtitle">키에 접근하기 위하여 인증하세요</string>
     <string name="lock_error_activity_unavailable">Activity context unavailable.</string>
     <string name="lock_error_biometric_unavailable">Biometric authentication is not available. Enroll a fingerprint or screen lock in System Settings.</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          Settings — top-level navigation
          ════════════════════════════════════════════════════════════════ -->
-    <string name="settings_title">Settings</string>
+    <string name="settings_title">설정</string>
     <!-- RC3 §J (#20): top-level Settings category rows. -->
-    <string name="settings_category_security_title">Security &amp; Privacy</string>
-    <string name="settings_category_security_subtitle">Biometrics, card PIN, clipboard, password store</string>
-    <string name="settings_category_encryption_title">Encryption</string>
+    <string name="settings_category_security_title">보안 및 개인 정보</string>
+    <string name="settings_category_security_subtitle">생체 인증, 카드 PIN, 클립보드, 비밀번호 저장소</string>
+    <string name="settings_category_encryption_title">암호화</string>
     <string name="settings_category_encryption_subtitle">Email format, armor comment, default recipient</string>
-    <string name="settings_category_keys_title">Keys &amp; Servers</string>
-    <string name="settings_category_keys_subtitle">Reminders, key servers, refresh, proxy, connected apps</string>
-    <string name="settings_category_appearance_title">Appearance &amp; Language</string>
-    <string name="settings_category_appearance_subtitle">Theme and language</string>
-    <string name="settings_category_backup_title">Backup &amp; Data</string>
+    <string name="settings_category_keys_title">키 및 서버</string>
+    <string name="settings_category_keys_subtitle">리마인더, 키 서버, 새로 고침, 프록시, 연결된 앱</string>
+    <string name="settings_category_appearance_title">외관 및 언어</string>
+    <string name="settings_category_appearance_subtitle">테마 및 언어</string>
+    <string name="settings_category_backup_title">백업 및 데이터</string>
     <string name="settings_category_backup_subtitle">Back up your keys, clear app data</string>
-    <string name="settings_category_help_title">Help &amp; About</string>
+    <string name="settings_category_help_title">도움말 및 소개</string>
     <string name="settings_category_help_subtitle">Support, feedback, more from NorseHorse</string>
 
     <!-- ── Section headers ───────────────────────────────────────────── -->
-    <string name="settings_section_security">Security</string>
-    <string name="settings_section_clipboard">Clipboard</string>
-    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_security">보안</string>
+    <string name="settings_section_clipboard">클립보드</string>
+    <string name="settings_section_appearance">외관</string>
     <string name="settings_section_default_recipient">Default recipient</string>
     <string name="settings_default_recipient_label">Pre-select a recipient when encrypting</string>
-    <string name="settings_default_recipient_none">None</string>
-    <string name="settings_default_recipient_pinned">Pinned</string>
-    <string name="settings_default_recipient_last">Last used</string>
-    <string name="settings_default_recipient_choose">Choose a key</string>
-    <string name="settings_section_pgp_output">PGP Output</string>
-    <string name="settings_section_reminders">Reminders</string>
-    <string name="settings_section_key_management">Key Management</string>
-    <string name="settings_section_data">Data</string>
-    <string name="settings_section_support">Support</string>
+    <string name="settings_default_recipient_none">없음</string>
+    <string name="settings_default_recipient_pinned">고정됨</string>
+    <string name="settings_default_recipient_last">마지막으로 사용됨</string>
+    <string name="settings_default_recipient_choose">키를 선택하세요</string>
+    <string name="settings_section_pgp_output">PGP 출력</string>
+    <string name="settings_section_reminders">리마인더</string>
+    <string name="settings_section_key_management">키 관리</string>
+    <string name="settings_section_data">데이터</string>
+    <string name="settings_section_support">지원</string>
     <string name="settings_section_more">More from NorseHorse</string>
     <string name="settings_more_agepony_title">AgePony</string>
     <string name="settings_more_agepony_subtitle">File encryption with the age format</string>
     <!-- RC3 §J: sibling-app site links. Brand names are locale-invariant; the
          subtitles are the taglines from pony.norsehor.se and translate normally. -->
-    <string name="settings_more_ponyfamily_title">All Pony apps</string>
-    <string name="settings_desktop_title">PGPony for Desktop</string>
+    <string name="settings_more_ponyfamily_title">모든 Pony 앱</string>
+    <string name="settings_desktop_title">데스크탑용 PGPony</string>
     <string name="settings_desktop_subtitle">OpenPGP for macOS, Linux and Windows.</string>
-    <string name="update_channel_name">Updates</string>
+    <string name="update_channel_name">업데이트</string>
     <string name="update_channel_description">Notifies you when a newer sideloaded build is available.</string>
-    <string name="update_available_title">Update available</string>
+    <string name="update_available_title">업데이트 사용 가능</string>
     <string name="update_available_text">PGPony %1$s is available. Tap to open the release.</string>
-    <string name="settings_section_updates">Updates</string>
-    <string name="settings_updates_toggle_title">Check for updates</string>
+    <string name="settings_section_updates">업데이트</string>
+    <string name="settings_updates_toggle_title">업데이트 확인</string>
     <string name="settings_updates_toggle_subtitle">Checks GitHub for newer releases and notifies you. It bypasses the F-Droid update path and never downloads or installs anything.</string>
-    <string name="settings_updates_check_now">Check now</string>
+    <string name="settings_updates_check_now">지금 확인하기</string>
     <string name="settings_updates_found">Update available: %1$s</string>
-    <string name="settings_updates_uptodate">Up to date.</string>
+    <string name="settings_updates_uptodate">최신 판입니다.</string>
     <string name="settings_updates_failed">Could not check for updates.</string>
     <string name="settings_more_ponyfamily_subtitle">The whole family at pony.norsehor.se</string>
     <string name="settings_more_quorumpony_title" translatable="false">QuorumPony</string>
@@ -192,16 +192,16 @@
     <string name="settings_more_relaypony_subtitle">Encrypted file transfer, phone to phone</string>
     <string name="settings_more_scrubpony_title" translatable="false">ScrubPony</string>
     <string name="settings_more_scrubpony_subtitle">Strip identifying metadata from images. No pixel moves.</string>
-    <string name="settings_more_source_title">Open-source engine</string>
+    <string name="settings_more_source_title">오픈 소스 엔진</string>
     <string name="settings_more_source_subtitle">PGPonyCore on GitHub, the audited crypto core</string>
-    <string name="settings_more_appsource_title">Source code</string>
+    <string name="settings_more_appsource_title">소스 코드</string>
     <string name="settings_more_appsource_subtitle">The full PGPony app on GitHub</string>
-    <string name="settings_section_about">About</string>
+    <string name="settings_section_about">소개</string>
 
     <!-- ── Pro section ──────────────────────────────────────────────── -->
 
     <!-- ── Security section ─────────────────────────────────────────── -->
-    <string name="settings_biometric_lock_title">Biometric Lock</string>
+    <string name="settings_biometric_lock_title">생체 인증 잠금</string>
     <string name="settings_biometric_lock_subtitle">Require authentication to open the app</string>
     <string name="settings_biometric_decrypt_title">Require for Decryption</string>
     <string name="settings_biometric_decrypt_subtitle">Re-authenticate each time you decrypt</string>
@@ -211,10 +211,10 @@
     <string name="settings_clipboard_autoclear_title">Auto-Clear Clipboard</string>
     <string name="settings_clipboard_autoclear_subtitle">Automatically erase copied content</string>
     <string name="settings_clipboard_clear_after_label">Clear After</string>
-    <string name="settings_clipboard_interval_30s">30s</string>
-    <string name="settings_clipboard_interval_1m">1m</string>
-    <string name="settings_clipboard_interval_2m">2m</string>
-    <string name="settings_clipboard_interval_5m">5m</string>
+    <string name="settings_clipboard_interval_30s">30&nbsp;초</string>
+    <string name="settings_clipboard_interval_1m">1&nbsp;분</string>
+    <string name="settings_clipboard_interval_2m">2&nbsp;분</string>
+    <string name="settings_clipboard_interval_5m">5&nbsp;분</string>
 
     <!-- ── PGP Output section: customizable armor comment ───────────── -->
     <string name="settings_armor_comment_toggle_title">Include comment in PGP output</string>
@@ -224,10 +224,10 @@
     <string name="settings_armor_comment_preview_none">No comment header will be written</string>
 
     <!-- ── Appearance section (Phase A12) ───────────────────────────── -->
-    <string name="settings_appearance_theme_label">Theme</string>
-    <string name="settings_appearance_theme_system">System</string>
-    <string name="settings_appearance_theme_light">Light</string>
-    <string name="settings_appearance_theme_dark">Dark</string>
+    <string name="settings_appearance_theme_label">테마</string>
+    <string name="settings_appearance_theme_system">시스템</string>
+    <string name="settings_appearance_theme_light">라이트</string>
+    <string name="settings_appearance_theme_dark">다크</string>
 
     <!-- ── Reminders section (Phase A12) ────────────────────────────── -->
     <string name="settings_reminders_key_expiration_title">Key Expiration Reminders</string>
@@ -236,14 +236,14 @@
     <string name="settings_reminders_notifications_disabled_hint">Notifications are disabled in System Settings. Open the app\'s notification settings to re-enable.</string>
 
     <!-- ── Key Management section ───────────────────────────────────── -->
-    <string name="settings_key_default_label">Default Key</string>
-    <string name="settings_key_total_keys_label">Total Keys</string>
-    <string name="settings_key_total_pairs_label">Key Pairs</string>
+    <string name="settings_key_default_label">기본 키</string>
+    <string name="settings_key_total_keys_label">전체 키</string>
+    <string name="settings_key_total_pairs_label">키 쌍</string>
     <string name="settings_key_default_format">%1$s (%2$s)</string>
 
     <!-- ── Data section ─────────────────────────────────────────────── -->
-    <string name="settings_data_clear_all_button">Clear All Data</string>
-    <string name="settings_data_clear_step1_title">Clear All Data?</string>
+    <string name="settings_data_clear_all_button">모든 데이터 지우기</string>
+    <string name="settings_data_clear_step1_title">모든 데이터를 지울까요?</string>
     <string name="settings_data_clear_step1_body">This will permanently delete ALL keys, including private keys. This cannot be undone.</string>
     <string name="settings_data_clear_step2_title">Are you absolutely sure?</string>
     <string name="settings_data_clear_step2_body">You will lose access to all encrypted messages that use these keys. There is no recovery.</string>
@@ -254,35 +254,35 @@
     <string name="settings_data_clear_biometric_title">Confirm deleting all data</string>
     <string name="settings_data_clear_biometric_subtitle">Authenticate to permanently delete every key</string>
     <string name="settings_data_clear_key_list_header_format">Keys that will be permanently destroyed (%1$d):</string>
-    <string name="settings_data_clear_type_word">DELETE</string>
-    <string name="settings_data_clear_type_label_format">Type %1$s to confirm</string>
-    <string name="settings_data_clear_success">All data cleared</string>
+    <string name="settings_data_clear_type_word">삭제</string>
+    <string name="settings_data_clear_type_label_format">확인하려면 %1$s를 입력하세요</string>
+    <string name="settings_data_clear_success">모든 데이터 지워짐</string>
     <string name="settings_data_clear_error_format">Clear failed: %1$s</string>
 
     <!-- ── Support section ──────────────────────────────────────────── -->
-    <string name="settings_support_help_title">Help &amp; FAQ</string>
+    <string name="settings_support_help_title">도움말 및 FAQ</string>
     <string name="settings_support_help_subtitle">Answers to common questions</string>
     <string name="settings_support_rate_title">Rate PGPony on Google Play</string>
     <string name="settings_support_rate_subtitle">Help others discover the app</string>
     <string name="settings_support_rate_error">Could not open the rating sheet</string>
-    <string name="settings_support_feedback_title">Send Feedback</string>
+    <string name="settings_support_feedback_title">피드백 보내기</string>
     <string name="settings_support_feedback_subtitle">Email the developer directly</string>
     <string name="settings_support_feedback_no_email_error">No email app found. Write us at %1$s</string>
-    <string name="settings_support_privacy_title">Privacy Policy</string>
+    <string name="settings_support_privacy_title">개인 정보 정책</string>
     <string name="settings_support_privacy_subtitle">How your data is handled</string>
     <string name="settings_support_browser_error">Could not open the browser</string>
-    <string name="settings_support_security_title">Security &amp; Encryption</string>
+    <string name="settings_support_security_title">보안 및 암호화</string>
     <string name="settings_support_security_subtitle">How PGPony protects your messages</string>
 
     <!-- ── About section ────────────────────────────────────────────── -->
-    <string name="settings_about_version_label">Version</string>
+    <string name="settings_about_version_label">판</string>
     <string name="settings_about_compat_label">Compatibility</string>
     <string name="settings_about_compat_value">Android 8.0+</string>
-    <string name="settings_about_openpgp_label">OpenPGP Standard</string>
+    <string name="settings_about_openpgp_label">OpenPGP 표준</string>
     <string name="settings_about_openpgp_value">RFC 4880 + 9580</string>
-    <string name="settings_about_crypto_label">Crypto Library</string>
+    <string name="settings_about_crypto_label">암호 라이브러리</string>
     <string name="settings_about_crypto_value">Bouncy Castle 1.85</string>
-    <string name="settings_about_replay_onboarding_title">Show Welcome Tour Again</string>
+    <string name="settings_about_replay_onboarding_title">환영 둘러보기 다시 보이기</string>
     <string name="settings_about_replay_onboarding_subtitle">Replay the first-run intro</string>
     <string name="settings_about_reset_tips_title">Reset Tips</string>
     <string name="settings_about_reset_tips_subtitle">Show contextual hints again on each tab</string>
@@ -292,50 +292,50 @@
     <!-- ════════════════════════════════════════════════════════════════
          MainActivity — small UI strings (tab labels, etc.)
          ════════════════════════════════════════════════════════════════ -->
-    <string name="main_tab_keyring">Keyring</string>
-    <string name="main_tab_encrypt">Encrypt</string>
-    <string name="main_tab_decrypt">Decrypt</string>
+    <string name="main_tab_keyring">키링</string>
+    <string name="main_tab_encrypt">암호화</string>
+    <string name="main_tab_decrypt">복호화</string>
     <string name="main_tab_exchange">Exchange</string>
-    <string name="main_tab_settings">Settings</string>
+    <string name="main_tab_settings">설정</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          Encrypt screen
          ════════════════════════════════════════════════════════════════ -->
-    <string name="encrypt_screen_title">Encrypt</string>
+    <string name="encrypt_screen_title">암호화</string>
 
     <!-- ── Mode picker ──────────────────────────────────────────────── -->
-    <string name="encrypt_mode_text">Text</string>
-    <string name="encrypt_mode_file">File</string>
-    <string name="encrypt_mode_sign">Sign</string>
+    <string name="encrypt_mode_text">텍스트</string>
+    <string name="encrypt_mode_file">파일</string>
+    <string name="encrypt_mode_sign">서명</string>
     <!-- RC3 §J (#16): file-only signing, promoted from a File-mode sheet to its own tab. -->
-    <string name="encrypt_mode_sign_file">Sign File</string>
+    <string name="encrypt_mode_sign_file">파일 서명</string>
     <!-- RC3 §J (#16): Sign File / Verify stream the picked file from disk; these cover the two remaining failure shapes. -->
     <string name="sign_verify_error_file_unreadable">Couldn\'t read the picked file. Pick it again.</string>
     <string name="verify_file_error_sig_not_signature">That file is too large to be a detached signature. Pick the .asc or .sig file, not the signed content.</string>
-    <string name="sign_file_save_button">Save to Files</string>
-    <string name="encrypt_mode_password">Password</string>
+    <string name="sign_file_save_button">파일로 저장</string>
+    <string name="encrypt_mode_password">비밀번호</string>
 
     <!-- ── Phase A1: symmetric / passphrase-only (Password) mode ──────── -->
-    <string name="encrypt_password_section_label">Encrypt to a password</string>
+    <string name="encrypt_password_section_label">비밀번호로 암호화</string>
     <string name="encrypt_password_hint">No keys needed. Anyone with this passphrase can decrypt the message. Share it over a separate channel. Works with gpg -c on the other end.</string>
-    <string name="encrypt_password_passphrase_label">Passphrase</string>
-    <string name="encrypt_password_confirm_label">Confirm passphrase</string>
-    <string name="encrypt_password_show">Show passphrase</string>
-    <string name="encrypt_password_hide">Hide passphrase</string>
+    <string name="encrypt_password_passphrase_label">비밀구절</string>
+    <string name="encrypt_password_confirm_label">비밀구절 확인</string>
+    <string name="encrypt_password_show">비밀구절 보이기</string>
+    <string name="encrypt_password_hide">비밀구절 숨기기</string>
 
     <!-- ── Input field labels ───────────────────────────────────────── -->
-    <string name="encrypt_input_label_message_to_sign">Message to sign</string>
-    <string name="encrypt_input_label_message_to_encrypt">Message to encrypt</string>
+    <string name="encrypt_input_label_message_to_sign">서명할 메시지</string>
+    <string name="encrypt_input_label_message_to_encrypt">암호화할 메시지</string>
 
     <!-- ── Encrypt action button ────────────────────────────────────── -->
-    <string name="encrypt_action_sign">Sign</string>
-    <string name="encrypt_action_encrypt_file">Encrypt File</string>
-    <string name="encrypt_action_encrypt">Encrypt</string>
-    <string name="encrypt_action_sign_and_encrypt">Sign &amp; Encrypt</string>
+    <string name="encrypt_action_sign">서명</string>
+    <string name="encrypt_action_encrypt_file">파일 암호화</string>
+    <string name="encrypt_action_encrypt">암호화</string>
+    <string name="encrypt_action_sign_and_encrypt">서명 및 암호화</string>
 
     <!-- ── Output preview headers ───────────────────────────────────── -->
-    <string name="encrypt_output_signed_message">Signed Message</string>
-    <string name="encrypt_output_encrypted_message">Encrypted Message</string>
+    <string name="encrypt_output_signed_message">서명된 메시지</string>
+    <string name="encrypt_output_encrypted_message">암호화된 메시지</string>
 
     <!-- ── Recipients section ───────────────────────────────────────── -->
     <string name="encrypt_recipients_label">Recipients</string>
@@ -350,7 +350,7 @@
     <string name="encrypt_recipients_remove_format">Remove %1$s</string>
 
     <!-- ── ASCII armor toggle ───────────────────────────────────────── -->
-    <string name="encrypt_armor_toggle_title">ASCII Armor Output</string>
+    <string name="encrypt_armor_toggle_title">ASCII Armor 출력</string>
     <string name="encrypt_armor_toggle_subtitle_armored">Output as PGP text you can paste into email or chat.</string>
     <string name="encrypt_armor_toggle_subtitle_binary">Output as a binary .pgp file. Saved via the share sheet.</string>
 
@@ -369,27 +369,27 @@
     <string name="encrypt_sign_only_explainer">Produces an RFC 4880 clear-signed message that anyone with your public key can verify. No encryption. Anyone can read the text.</string>
     <string name="encrypt_sign_detached_label">Detached signature</string>
     <string name="encrypt_sign_detached_explainer">Output a standalone signature block, separate from the message.</string>
-    <string name="result_save_as_file_button">Save as file</string>
+    <string name="result_save_as_file_button">파일로 저장</string>
     <string name="result_save_signed_message_button">Save signed message</string>
-    <string name="result_save_saved_note">Saved.</string>
-    <string name="result_save_message_saved_note">Signed message saved.</string>
+    <string name="result_save_saved_note">저장되었습니다.</string>
+    <string name="result_save_message_saved_note">서명된 메시지가 저장되었습니다.</string>
     <string name="result_save_failed_note">Couldn\'t save the file.</string>
 
     <!-- ── File picker (encrypt) ────────────────────────────────────── -->
-    <string name="encrypt_file_choose">Choose a File to Encrypt</string>
+    <string name="encrypt_file_choose">암호화할 파일을 선택하세요</string>
     <string name="encrypt_file_any_type">Any file type supported</string>
     <string name="encrypt_file_choose_different">Choose Different File</string>
-    <string name="encrypt_file_remove">Remove file</string>
+    <string name="encrypt_file_remove">파일 제거</string>
 
     <!-- ── Passphrase dialog (encrypt-side / sign) ──────────────────── -->
-    <string name="encrypt_passphrase_dialog_title">Passphrase Required</string>
-    <string name="encrypt_passphrase_label">Passphrase</string>
+    <string name="encrypt_passphrase_dialog_title">비밀구절이 필요합니다</string>
+    <string name="encrypt_passphrase_label">비밀구절</string>
     <string name="encrypt_passphrase_intro">This signing key is passphrase-protected. </string>
     <string name="encrypt_passphrase_intro_sign">Enter it to sign the message.</string>
     <string name="encrypt_passphrase_intro_file">Enter it to encrypt and sign the file.</string>
     <string name="encrypt_passphrase_intro_text">Enter it to encrypt and sign the message.</string>
     <string name="encrypt_passphrase_skip_signing_file">Encrypt File Without Signing</string>
-    <string name="encrypt_passphrase_skip_signing">Encrypt Without Signing</string>
+    <string name="encrypt_passphrase_skip_signing">서명하지 않고 암호화</string>
 
     <!-- ── Inline tooltip ───────────────────────────────────────────── -->
     <string name="encrypt_tooltip_input">Type or paste your message at the top, pick one or more recipients below, then tap Encrypt to produce ciphertext you can copy and send anywhere.</string>
@@ -397,11 +397,11 @@
     <!-- ════════════════════════════════════════════════════════════════
          Decrypt screen
          ════════════════════════════════════════════════════════════════ -->
-    <string name="decrypt_screen_title">Decrypt</string>
+    <string name="decrypt_screen_title">복호화</string>
 
     <!-- ── Mode picker ──────────────────────────────────────────────── -->
-    <string name="decrypt_mode_text">Text</string>
-    <string name="decrypt_mode_file">File</string>
+    <string name="decrypt_mode_text">텍스트</string>
+    <string name="decrypt_mode_file">파일</string>
 
     <!-- ── Input fields ─────────────────────────────────────────────── -->
     <string name="decrypt_input_paste_label">Paste encrypted or signed message</string>
@@ -411,13 +411,13 @@
     <string name="decrypt_with_key_label">Decrypt with</string>
     <string name="decrypt_password_message_note">Password-encrypted message. Enter the passphrase to decrypt.</string>
     <string name="decrypt_password_passphrase_label">Passphrase</string>
-    <string name="decrypt_card_key_indicator">Hardware key</string>
+    <string name="decrypt_card_key_indicator">하드웨어 키</string>
     <!-- Phase AU-1 — Decrypt "Decrypt With" searchable key picker -->
     <string name="decrypt_picker_title">Decrypt with</string>
     <string name="decrypt_picker_choose">Choose a key</string>
     <string name="decrypt_picker_search">Search keys</string>
-    <string name="decrypt_picker_group_hardware">Hardware Keys</string>
-    <string name="decrypt_picker_group_software">Keys</string>
+    <string name="decrypt_picker_group_hardware">하드웨어 키</string>
+    <string name="decrypt_picker_group_software">키</string>
     <string name="decrypt_picker_none">No keys match your search</string>
     <string name="decrypt_key_row_format">%1$s (%2$s)</string>
     <string name="decrypt_no_key_pairs">No key pairs available. Generate or import a private key first.</string>
