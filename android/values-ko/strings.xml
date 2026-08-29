@@ -408,14 +408,14 @@
     <string name="decrypt_passphrase_optional_label">Passphrase (if key is protected)</string>
 
     <!-- ── Key picker ───────────────────────────────────────────────── -->
-    <string name="decrypt_with_key_label">Decrypt with</string>
+    <string name="decrypt_with_key_label">다음으로 복호화</string>
     <string name="decrypt_password_message_note">Password-encrypted message. Enter the passphrase to decrypt.</string>
-    <string name="decrypt_password_passphrase_label">Passphrase</string>
+    <string name="decrypt_password_passphrase_label">비밀구절</string>
     <string name="decrypt_card_key_indicator">하드웨어 키</string>
     <!-- Phase AU-1 — Decrypt "Decrypt With" searchable key picker -->
-    <string name="decrypt_picker_title">Decrypt with</string>
-    <string name="decrypt_picker_choose">Choose a key</string>
-    <string name="decrypt_picker_search">Search keys</string>
+    <string name="decrypt_picker_title">다음으로 복호화</string>
+    <string name="decrypt_picker_choose">키를 선택하세요</string>
+    <string name="decrypt_picker_search">키 검색</string>
     <string name="decrypt_picker_group_hardware">하드웨어 키</string>
     <string name="decrypt_picker_group_software">키</string>
     <string name="decrypt_picker_none">No keys match your search</string>
@@ -423,11 +423,11 @@
     <string name="decrypt_no_key_pairs">No key pairs available. Generate or import a private key first.</string>
 
     <!-- ── Decrypt action button ────────────────────────────────────── -->
-    <string name="decrypt_action_decrypt_file">Decrypt File</string>
-    <string name="decrypt_action_decrypt">Decrypt</string>
+    <string name="decrypt_action_decrypt_file">파일 복호화</string>
+    <string name="decrypt_action_decrypt">복호화</string>
     <string name="verify_file_entry_button">Verify a file</string>
-    <string name="sign_file_entry_button">Sign a file</string>
-    <string name="sign_file_sheet_title">Sign a file</string>
+    <string name="sign_file_entry_button">파일 서명</string>
+    <string name="sign_file_sheet_title">파일 서명</string>
     <string name="sign_file_sheet_subtitle">Pick a file and a signing key to produce a standalone detached signature you can share alongside it.</string>
     <string name="sign_file_pick_label">Choose file to sign</string>
     <string name="sign_file_sign_with_format">Sign with: %1$s</string>
@@ -435,34 +435,34 @@
     <string name="sign_file_format_armored">.asc (armored)</string>
     <string name="sign_file_format_binary">.sig (binary)</string>
     <string name="sign_file_passphrase_label">Passphrase (if key is protected)</string>
-    <string name="sign_file_sign_button">Sign</string>
+    <string name="sign_file_sign_button">서명</string>
     <string name="sign_file_share_button">Share signature</string>
     <string name="sign_file_error_pick_file">Choose a file to sign.</string>
     <string name="sign_file_error_pick_key">Choose a signing key.</string>
     <string name="sign_file_error_passphrase_required">This key is passphrase-protected. Enter the passphrase.</string>
     <string name="sign_file_error_failed_format">Signing failed: %1$s</string>
-    <string name="verify_file_sheet_title">Verify a file</string>
+    <string name="verify_file_sheet_title">파일 검증</string>
     <string name="verify_file_sheet_subtitle">Pick the original file and its detached signature (.sig or .asc) to check who signed it.</string>
     <string name="verify_file_pick_signed_label">Choose original file</string>
     <string name="verify_file_pick_signature_label">Choose signature (.sig/.asc)</string>
-    <string name="verify_file_verify_button">Verify</string>
+    <string name="verify_file_verify_button">검증</string>
     <string name="verify_file_error_pick_both">Pick both the original file and its signature.</string>
 
     <!-- ── File picker (decrypt) ────────────────────────────────────── -->
-    <string name="decrypt_file_choose">Choose Encrypted File</string>
-    <string name="decrypt_file_types">.pgp, .gpg, .asc files</string>
+    <string name="decrypt_file_choose">암호화된 파일을 선택하세요</string>
+    <string name="decrypt_file_types">.pgp, .gpg, .asc 파일</string>
 
     <!-- ── Output preview headers ───────────────────────────────────── -->
-    <string name="decrypt_output_decrypted">Decrypted Message</string>
-    <string name="decrypt_output_verified">Verified Content</string>
-    <string name="decrypt_output_signed">Signed Content</string>
+    <string name="decrypt_output_decrypted">복호화된 메시지</string>
+    <string name="decrypt_output_verified">검증된 내용</string>
+    <string name="decrypt_output_signed">서명된 내용</string>
 
     <!-- ── Passphrase dialog (decrypt-side) ─────────────────────────── -->
-    <string name="decrypt_passphrase_dialog_title">Passphrase Required</string>
-    <string name="decrypt_passphrase_explainer">This key is protected with a passphrase.</string>
+    <string name="decrypt_passphrase_dialog_title">비밀구절이 필요합니다</string>
+    <string name="decrypt_passphrase_explainer">이 키는 비밀구절로 보호되어 있습니다.</string>
 
     <!-- ── Biometric gate ───────────────────────────────────────────── -->
-    <string name="decrypt_biometric_prompt_title">Authenticate to Decrypt</string>
+    <string name="decrypt_biometric_prompt_title">복호화하려면 인증하세요</string>
     <string name="decrypt_biometric_prompt_subtitle">Verify your identity to access this message</string>
 
     <!-- ── Inline tooltip ───────────────────────────────────────────── -->
@@ -479,27 +479,27 @@
          ════════════════════════════════════════════════════════════════ -->
 
     <!-- ── Encryption result sheet ──────────────────────────────────── -->
-    <string name="result_encrypt_header_signed">Message Signed</string>
-    <string name="result_encrypt_header_encrypted">Message Encrypted</string>
-    <string name="result_encrypt_badge_signed">Signed</string>
-    <string name="result_encrypt_output_signed">Signed Output</string>
-    <string name="result_encrypt_output_encrypted">Encrypted Output</string>
-    <string name="result_encrypt_can_decrypt_label">Can Decrypt</string>
-    <string name="result_encrypt_clipboard_label_signed">Signed message</string>
-    <string name="result_encrypt_clipboard_label_encrypted">Encrypted message</string>
+    <string name="result_encrypt_header_signed">메시지 서명됨</string>
+    <string name="result_encrypt_header_encrypted">메시지 암호화됨</string>
+    <string name="result_encrypt_badge_signed">서명됨</string>
+    <string name="result_encrypt_output_signed">서명된 출력</string>
+    <string name="result_encrypt_output_encrypted">암호화된 출력</string>
+    <string name="result_encrypt_can_decrypt_label">복호화할 수 있음</string>
+    <string name="result_encrypt_clipboard_label_signed">서명된 메시지</string>
+    <string name="result_encrypt_clipboard_label_encrypted">암호화된 메시지</string>
     <string name="result_encrypt_share_chooser_signed">Share signed message</string>
     <string name="result_encrypt_share_chooser_encrypted">Share encrypted message</string>
 
     <!-- ── File decryption result sheet ─────────────────────────────── -->
     <string name="result_file_decrypt_default_filename">decrypted_output</string>
-    <string name="result_file_decrypt_header">File Decrypted</string>
-    <string name="result_file_decrypt_badge_preview">Preview</string>
-    <string name="result_file_decrypt_save_button">Save to Files</string>
+    <string name="result_file_decrypt_header">파일 복호화됨</string>
+    <string name="result_file_decrypt_badge_preview">미리 보기</string>
+    <string name="result_file_decrypt_save_button">파일로 저장</string>
     <string name="result_file_decrypt_save_failed_fallback">Save failed</string>
-    <string name="result_file_decrypt_share_button">Share Decrypted File</string>
-    <string name="result_file_decrypt_share_chooser">Share decrypted file</string>
-    <string name="result_file_decrypt_share_failed_fallback">Share failed</string>
-    <string name="result_file_decrypt_saved_status">Saved successfully</string>
+    <string name="result_file_decrypt_share_button">복호화된 파일 저장</string>
+    <string name="result_file_decrypt_share_chooser">복호화된 파일 공유</string>
+    <string name="result_file_decrypt_share_failed_fallback">공유 실패</string>
+    <string name="result_file_decrypt_saved_status">성공적으로 저장됨</string>
 
     <!-- ── Clipboard auto-clear countdown (Phase A12) ───────────────── -->
     <string name="clipboard_will_clear_in_format">Clipboard will clear in %1$ds</string>
