@@ -684,7 +684,7 @@
     <string name="key_detail_error_key_not_found">Key not found</string>
 
     <!-- ── Type + DEFAULT badge ─────────────────────────────────────── -->
-    <string name="key_detail_type_key_pair">Key Pair</string>
+    <string name="key_detail_type_key_pair">키쌍</string>
     <string name="key_detail_type_public_key">Public Key</string>
     <string name="key_detail_badge_default">DEFAULT</string>
 
@@ -755,7 +755,7 @@
     <string name="key_detail_add_userid_name_label">Name</string>
     <string name="key_detail_add_userid_email_label">Email</string>
     <string name="key_detail_add_userid_make_primary_label">Make this the primary User ID</string>
-    <string name="key_detail_add_userid_passphrase_label">Passphrase</string>
+    <string name="key_detail_add_userid_passphrase_label">비밀구절</string>
     <string name="key_detail_add_userid_apply">Add User ID</string>
     <string name="key_detail_notations_title">Notations</string>
     <string name="key_detail_notations_empty">No notations on this key.</string>
@@ -775,7 +775,7 @@
     <string name="key_detail_userid_action_sheet_title_make_primary">Make Primary User ID</string>
     <string name="key_detail_userid_action_sheet_subtitle_revoke">%1$s will be marked revoked. This cannot be undone.</string>
     <string name="key_detail_userid_action_sheet_subtitle_make_primary">%1$s will become the primary identity on this key.</string>
-    <string name="key_detail_userid_action_passphrase_label">Passphrase</string>
+    <string name="key_detail_userid_action_passphrase_label">비밀구절</string>
     <string name="key_detail_userid_action_apply_revoke">Revoke</string>
     <string name="key_detail_userid_action_apply_make_primary">Make Primary</string>
     <string name="key_detail_userid_action_failed">Could not complete this action. Please try again.</string>
@@ -793,7 +793,7 @@
     <string name="key_detail_add_subkey_sheet_subtitle">New subkey for %1$s</string>
     <string name="key_detail_add_subkey_type_label">Key type</string>
     <string name="key_detail_add_subkey_expiry_label">Expiration</string>
-    <string name="key_detail_add_subkey_passphrase_label">Passphrase</string>
+    <string name="key_detail_add_subkey_passphrase_label">비밀구절</string>
     <string name="key_detail_add_subkey_apply">Add subkey</string>
     <string name="key_detail_add_subkey_failed">Could not add the subkey. Please try again.</string>
     <string name="key_detail_add_subkey_type_rsa_2048_sign">RSA 2048 (Sign)</string>
@@ -967,7 +967,7 @@
     <string name="revoke_sheet_reason_label">Reason</string>
     <string name="revoke_sheet_comment_label">Comment (optional)</string>
     <string name="revoke_sheet_comment_placeholder">e.g. Replaced by key 0xABCD1234</string>
-    <string name="revoke_sheet_passphrase_label">Passphrase</string>
+    <string name="revoke_sheet_passphrase_label">비밀구절</string>
     <string name="revoke_sheet_passphrase_placeholder">Leave blank if your key has no passphrase</string>
     <string name="revoke_sheet_confirm">Revoke</string>
 
@@ -1179,7 +1179,7 @@
     <!-- ════════════════════════════════════════════════════════════════
          KeyCard — used as a row across Keyring, Encrypt, etc.
          ════════════════════════════════════════════════════════════════ -->
-    <string name="key_card_key_pair_cd">Key pair</string>
+    <string name="key_card_key_pair_cd">키쌍</string>
     <string name="key_card_expired_badge">Expired</string>
     <string name="key_card_revoked_badge">REVOKED</string>
 
@@ -1200,19 +1200,19 @@
 
     <!-- ── QR code + buttons ────────────────────────────────────────── -->
     <string name="exchange_qr_cd">Public key QR code</string>
-    <string name="exchange_copy_key_button">Copy Key</string>
-    <string name="exchange_upload_button">Upload</string>
-    <string name="exchange_upload_button_in_progress">Uploading…</string>
+    <string name="exchange_copy_key_button">키 복사</string>
+    <string name="exchange_upload_button">올리기</string>
+    <string name="exchange_upload_button_in_progress">올리는 중…</string>
 
     <!-- ── Scan section ─────────────────────────────────────────────── -->
     <string name="exchange_scan_button">Open Scanner</string>
 
     <!-- ── Key server lookup ────────────────────────────────────────── -->
-    <string name="exchange_keyserver_query_label">Email or fingerprint</string>
-    <string name="exchange_keyserver_search_cd">Search</string>
-    <string name="exchange_keyserver_search_button">Search key servers</string>
-    <string name="exchange_keyserver_searching">Searching…</string>
-    <string name="exchange_keyserver_import_button">Import Key</string>
+    <string name="exchange_keyserver_query_label">전자 우편 또는 지문</string>
+    <string name="exchange_keyserver_search_cd">검색</string>
+    <string name="exchange_keyserver_search_button">키 서버 검색</string>
+    <string name="exchange_keyserver_searching">검색 중…</string>
+    <string name="exchange_keyserver_import_button">키 불러오기</string>
 
     <!-- ── Tooltip ──────────────────────────────────────────────────── -->
     <string name="exchange_tooltip_qr">Pick a key here to get a QR code or shareable file. The other person scans or imports it to send you encrypted messages.</string>
@@ -1244,11 +1244,11 @@
     <!-- ════════════════════════════════════════════════════════════════
          VerificationBanner (decrypt-side signature outcome banner)
          ════════════════════════════════════════════════════════════════ -->
-    <string name="verify_banner_verified_title">Verified</string>
+    <string name="verify_banner_verified_title">검증됨</string>
     <string name="verify_banner_invalid_title">Signature invalid</string>
     <string name="verify_banner_unknown_signer_title">Unknown signer</string>
     <string name="verify_banner_unknown_signer_lookup_cd">Look up signer</string>
-    <string name="verify_banner_no_signature_title">No signature</string>
+    <string name="verify_banner_no_signature_title">서명 없음</string>
     <string name="verify_banner_no_signature_subtitle">Content decrypted but not signed. Origin is unverified</string>
     <string name="verify_banner_signed_by_full_format">Signed by %1$s &lt;%2$s&gt;</string>
     <string name="verify_banner_signed_by_name_format">Signed by %1$s</string>
@@ -1272,13 +1272,13 @@
     <!-- ════════════════════════════════════════════════════════════════
          KeyExpirationReceiver — system notification text
          ════════════════════════════════════════════════════════════════ -->
-    <string name="key_expiration_notif_display_name_fallback">PGP key</string>
+    <string name="key_expiration_notif_display_name_fallback">PGP 키</string>
     <string name="key_expiration_notif_title_format">Your PGP key expires %1$s</string>
     <string name="key_expiration_notif_body_format">Tap to renew \"%1$s\" before it stops working.</string>
     <string name="key_expiration_label_in_30_days">in 30 days</string>
     <string name="key_expiration_label_in_7_days">in 7 days</string>
-    <string name="key_expiration_label_tomorrow">tomorrow</string>
-    <string name="key_expiration_label_today">today</string>
+    <string name="key_expiration_label_tomorrow">내일</string>
+    <string name="key_expiration_label_today">오늘</string>
     <string name="key_expiration_label_in_n_days_format">in %1$d days</string>
 
     <!-- ── KeyExpirationService — notification channel (system Settings) -->
@@ -1289,13 +1289,13 @@
     <!-- ════════════════════════════════════════════════════════════════
          Result sheets — shared
          ════════════════════════════════════════════════════════════════ -->
-    <string name="result_sheet_fingerprint_format">Fingerprint: %1$s</string>
+    <string name="result_sheet_fingerprint_format">지문: %1$s</string>
     <string name="result_sheet_armored_block_format">Armored OpenPGP block, %1$d characters</string>
     <string name="result_sheet_revocation_block_format">Revocation certificate, %1$d characters</string>
     <string name="result_sheet_copy_button">Copy to clipboard</string>
     <string name="result_sheet_save_button">Save as .asc file</string>
     <!-- RC3 §J: the key-export sheets' Save button is a real ACTION_CREATE_DOCUMENT save now; the system-share chooser moved to its own button. -->
-    <string name="result_sheet_share_button">Share…</string>
+    <string name="result_sheet_share_button">공유하기…</string>
     <string name="result_sheet_clipboard_warning">Clipboard contents are visible to all installed apps until cleared.</string>
 
     <!-- ── ExportPrivateKeyResultSheet ───────────────────────────────── -->
@@ -1428,9 +1428,9 @@
     <string name="share_target_decrypt_title">Decrypt with…</string>
     <string name="share_target_decrypt_no_key_pairs">No private keys available. Generate or import a key pair in the main app first.</string>
     <string name="share_target_decrypt_auto_select_label">Best matching key</string>
-    <string name="share_target_decrypt_passphrase_label">Passphrase</string>
+    <string name="share_target_decrypt_passphrase_label">비밀구절</string>
     <string name="share_target_decrypt_passphrase_optional">Passphrase (if key is protected)</string>
-    <string name="share_target_decrypt_button">Decrypt</string>
+    <string name="share_target_decrypt_button">복호화</string>
     <string name="share_target_decrypt_result_title">Decrypted</string>
     <string name="share_target_decrypt_file_result_title">Decrypted file</string>
     <string name="share_target_decrypt_file_result_share_button">Share decrypted file</string>
@@ -1439,9 +1439,9 @@
     <string name="share_target_decrypt_result_unsigned">Decrypted (no signature)</string>
 
     <!-- Result actions -->
-    <string name="share_target_result_copy">Copy</string>
-    <string name="share_target_result_share">Share</string>
-    <string name="share_target_result_done">Done</string>
+    <string name="share_target_result_copy">복사</string>
+    <string name="share_target_result_share">공유</string>
+    <string name="share_target_result_done">완료</string>
     <string name="share_target_result_open_in_pgpony">Open in PGPony</string>
     <string name="share_target_clip_label_encrypted">PGPony Encrypted Message</string>
     <string name="share_target_clip_label_decrypted">PGPony Decrypted Message</string>
@@ -1476,8 +1476,8 @@
 
     <!-- HW Phase 1 — Hardware key (OpenPGP card) NFC scan. English-only
          for now; localized in a later phase per the v6.0 plan. -->
-    <string name="keyring_fab_hardware_key">Hardware Key</string>
-    <string name="card_scan_title">Hardware Key</string>
+    <string name="keyring_fab_hardware_key">하드웨어 키</string>
+    <string name="card_scan_title">하드웨어 키</string>
     <string name="card_scan_prompt_title">Hold your security key to the phone</string>
     <string name="card_scan_prompt_body">Place your YubiKey, Token2, or other OpenPGP card against the back of the phone and hold it there.</string>
     <string name="card_scan_reading">Reading card…</string>
@@ -1535,7 +1535,7 @@
     <string name="card_mgmt_done_admin">Admin PIN changed.</string>
     <string name="card_mgmt_done_unblock">User PIN unblocked.</string>
     <string name="card_mgmt_done_reset">Card factory reset. Default PINs restored (user 123456, admin 12345678).</string>
-    <string name="card_mgmt_done_button">Done</string>
+    <string name="card_mgmt_done_button">완료</string>
     <string name="card_mgmt_failed_generic">Card operation failed.</string>
     <string name="card_mgmt_retry">Try again</string>
     <string name="card_keygen_open">Generate new key on card</string>
@@ -1554,7 +1554,7 @@
     <string name="card_keygen_done">Key generated on card.</string>
     <string name="card_keygen_done_primary_fp">Signing key: %1$s</string>
     <string name="card_keygen_done_subkey_fp">Encryption key: %1$s</string>
-    <string name="card_keygen_done_button">Done</string>
+    <string name="card_keygen_done_button">완료</string>
     <string name="card_keygen_failed_generate">Key generation failed.</string>
     <string name="card_keygen_failed_save">The key was generated but could not be saved to the keyring.</string>
     <string name="card_keygen_retry">Try again</string>
@@ -1593,7 +1593,7 @@
     <string name="pass_entry_password_label">Password</string>
     <string name="pass_entry_empty_password">(empty)</string>
     <string name="pass_entry_reveal">Show or hide</string>
-    <string name="pass_entry_copy">Copy</string>
+    <string name="pass_entry_copy">복사</string>
     <string name="pass_entry_otp_label">One-time code (OTP)</string>
     <string name="pass_entry_otp_note">Detected one-time-code URI. Code generation is not supported.</string>
     <string name="pass_entry_notes_label">Notes</string>
@@ -1618,7 +1618,7 @@
     <string name="card_pin_change_button">Change PIN</string>
     <string name="card_pin_change_hold_card">Hold your security key to the phone…</string>
     <string name="card_pin_change_success">User PIN changed</string>
-    <string name="card_pin_change_done">Done</string>
+    <string name="card_pin_change_done">완료</string>
     <string name="card_pin_change_try_again">Try again</string>
 
     <!-- HW Phase 2b — Sign with card (test/verify harness). English-only. -->
@@ -1647,7 +1647,7 @@
     <string name="card_decrypt_intro">Paste a PGP message encrypted to this card\'s key, enter your user PIN, and hold the card to your phone to decrypt. The card\'s public key must already be paired in your keyring.</string>
     <string name="card_decrypt_message_label">Encrypted message</string>
     <string name="card_decrypt_pin_label">User PIN (PW1)</string>
-    <string name="card_decrypt_button">Decrypt</string>
+    <string name="card_decrypt_button">복호화</string>
     <string name="card_decrypt_hold_card">Hold your security key to the phone…</string>
     <string name="card_decrypt_result_title">Decrypted</string>
     <string name="card_decrypt_copy">Copy plaintext</string>
@@ -1662,7 +1662,7 @@
     <string name="decrypt_hidden_recipient_no_software_key">None of your software keys opened this message. It hides its recipient, so there was no key ID to match.</string>
 
     <!-- HW Phase 3 — share-target card decrypt -->
-    <string name="share_target_card_label">Hardware key</string>
+    <string name="share_target_card_label">하드웨어 키</string>
     <string name="share_target_card_fallback_name">Your security key</string>
     <string name="share_target_card_note">This message is encrypted to your hardware key. Enter your PIN and tap the card to decrypt.</string>
 
@@ -1764,15 +1764,15 @@
     <string name="settings_argon2_subtitle">Use Argon2id for password-encrypted files and messages. Harder to brute force, but the recipient needs GnuPG 2.4 or newer to open them. Off by default for the widest compatibility.</string>
     <string name="settings_armor_comment_pubkey_title">Include comment in exported public keys</string>
     <string name="settings_armor_comment_pubkey_subtitle">Add the Comment header when you copy, share, or save a public key. Keyserver uploads and QR codes stay comment free.</string>
-    <string name="settings_about_licenses_title">Licenses</string>
+    <string name="settings_about_licenses_title">라이선스</string>
     <string name="settings_about_licenses_subtitle">Open source attributions</string>
-    <string name="licenses_title">Licenses</string>
+    <string name="licenses_title">라이선스</string>
     <string name="licenses_subtitle">Third party software used by PGPony.</string>
     <!-- 3.1.0 Phase 8 (E4/E5) — email send + sign by default -->
     <string name="result_send_email_button">Send as Email</string>
     <string name="settings_sign_by_default_title">Sign by default</string>
     <string name="settings_sign_by_default_subtitle">Start new messages with \"Also sign\" turned on, using your default signing key.</string>
-    <string name="settings_section_email">Email</string>
+    <string name="settings_section_email">전자 우편</string>
     <string name="settings_email_format_label">Send format</string>
     <string name="settings_email_format_inline">Inline</string>
     <string name="settings_email_format_attachment">Attachment</string>
@@ -1790,21 +1790,21 @@
     <!-- 3.1.0 Phase 8 Fix3 — richer file import diagnostic -->
     <string name="keyring_error_parse_diag2">Couldn\'t read a key from \"%1$s\". Got %2$d bytes (file reports %3$s), starting with \"%4$s\"</string>
     <!-- 4.0.0 Succession Phase 1 — OpenPGP API provider -->
-    <string name="settings_section_provider">OpenPGP Provider</string>
-    <string name="settings_provider_clients_title">Connected apps</string>
+    <string name="settings_section_provider">OpenPGP 제공자</string>
+    <string name="settings_provider_clients_title">연결된 앱</string>
     <string name="settings_provider_clients_subtitle">Apps allowed to use PGPony for OpenPGP encryption, like Thunderbird or K-9 Mail</string>
-    <string name="provider_clients_title">Connected apps</string>
+    <string name="provider_clients_title">연결된 앱</string>
     <string name="provider_clients_subtitle">These apps can use your PGPony keyring through the OpenPGP API. Removing an app here revokes its access immediately. It will ask for permission again on its next request.</string>
     <string name="provider_clients_empty_title">No connected apps yet</string>
     <string name="provider_clients_empty_body">In an OpenPGP-capable app such as Thunderbird for Android, choose PGPony as the OpenPGP provider. The app will appear here after you approve its first connection.</string>
     <string name="provider_clients_granted_format">Connected %1$s</string>
-    <string name="provider_clients_revoke">Revoke access</string>
+    <string name="provider_clients_revoke">접근 권한 박탈</string>
     <string name="provider_consent_title">Allow %1$s?</string>
     <string name="provider_consent_body">%1$s (%2$s) wants to use PGPony for OpenPGP operations such as encrypting, decrypting, and signing.\n\nPGPony will remember this app by its package name and signing certificate. You can revoke access at any time in Settings → Connected apps.</string>
-    <string name="provider_consent_allow">Allow</string>
-    <string name="provider_consent_deny">Don\'t allow</string>
+    <string name="provider_consent_allow">승인</string>
+    <string name="provider_consent_deny">거부</string>
     <!-- 4.0.0 Succession Phase P2a-1 — signing-key picker -->
-    <string name="provider_keypicker_title">Choose signing key</string>
+    <string name="provider_keypicker_title">서명 키 선택</string>
     <string name="provider_keypicker_for_format">For %1$s</string>
     <string name="provider_keypicker_none">No key. Don\'t sign</string>
     <string name="provider_keypicker_empty">No usable keys in your keyring yet. Create or import a key pair in PGPony first.</string>
@@ -1812,14 +1812,14 @@
     <string name="provider_passphrase_title">Unlock signing key</string>
     <string name="provider_passphrase_body_format">Enter the passphrase for %1$s to sign this message. PGPony remembers it for 5 minutes on this device only.</string>
     <string name="provider_passphrase_wrong">Wrong passphrase. Try again.</string>
-    <string name="provider_passphrase_hint">Passphrase</string>
-    <string name="provider_passphrase_unlock">Unlock</string>
+    <string name="provider_passphrase_hint">비밀구절</string>
+    <string name="provider_passphrase_unlock">잠금 해제</string>
     <!-- 4.0.0 Succession Phase P2c — provider hardware-card operations -->
     <string name="provider_cardop_title">Confirm with your %1$s key</string>
-    <string name="provider_cardop_generic_card">security</string>
+    <string name="provider_cardop_generic_card">보안</string>
     <string name="provider_cardop_body_sign">This message will be signed with your hardware key. Enter the card PIN, then hold the key against the back of your phone.</string>
     <string name="provider_cardop_body_decrypt">This message is encrypted to your hardware key. Enter the card PIN, then hold the key against the back of your phone.</string>
-    <string name="provider_cardop_pin_hint">Card PIN</string>
+    <string name="provider_cardop_pin_hint">카드 PIN</string>
     <string name="provider_cardop_pin_needed">Enter the card PIN first, then tap the card again.</string>
     <string name="provider_cardop_waiting">Waiting for the card…</string>
     <string name="provider_cardop_wrong_pin">Wrong PIN. %1$d tries remaining. Check the PIN and tap the card again.</string>
@@ -1831,10 +1831,10 @@
     <string name="provider_cardop_pair_first">Pair this card\'s public key into your PGPony keyring first, then try again.</string>
     <string name="provider_cardop_wrong_card">This is a different card than the selected key. Tap the matching card.</string>
     <!-- 4.0.0 Phase 5a — multi-keyserver directory + publish -->
-    <string name="settings_section_keyservers">Key Servers</string>
-    <string name="settings_keyservers_title">Key servers</string>
+    <string name="settings_section_keyservers">키 서버</string>
+    <string name="settings_keyservers_title">키 서버</string>
     <string name="settings_keyservers_subtitle">Where PGPony looks up and publishes keys</string>
-    <string name="keyservers_title">Key servers</string>
+    <string name="keyservers_title">키 서버</string>
     <string name="keyservers_subtitle">PGPony looks up keys from these servers in order and publishes to the ones you enable. keys.pgpony.app is PGPony\'s own server and accepts every key type.</string>
     <string name="keyservers_first_party_badge">FIRST-PARTY</string>
     <string name="keyservers_lookup">Use for lookup</string>
@@ -1850,7 +1850,7 @@
     <string name="publish_failed_format">Couldn\'t publish: %1$s</string>
     <string name="publish_ok">Published.</string>
     <string name="publish_ok_pending">Published. Check %1$s for a verification email.</string>
-    <string name="publish_status_verified">✓ Verified identity</string>
+    <string name="publish_status_verified">✓ 검증된 신원</string>
     <string name="publish_status_awaiting">Published, awaiting email verification</string>
     <string name="publish_status_published">Published</string>
     <string name="publish_status_not_published">Not on this server yet</string>
@@ -1867,93 +1867,93 @@
     <string name="key_refresh_notif_expired_title">A key expired</string>
     <string name="key_refresh_notif_expired_body">%1$s\'s key has expired according to a key server.</string>
     <!-- 4.0.0 Phase 6 — SOCKS/Tor proxy -->
-    <string name="settings_section_proxy">Proxy (Tor)</string>
+    <string name="settings_section_proxy">프락시 (Tor)</string>
     <string name="settings_proxy_title">Route traffic through a proxy</string>
     <string name="settings_proxy_subtitle">Send all key server and WKD traffic through Tor or a SOCKS5 proxy</string>
-    <string name="settings_proxy_mode_off">Off</string>
+    <string name="settings_proxy_mode_off">꺼짐</string>
     <string name="settings_proxy_mode_orbot">Orbot (Tor)</string>
-    <string name="settings_proxy_mode_custom">Custom</string>
-    <string name="settings_proxy_orbot_missing">Orbot isn\'t installed. Install it from F-Droid or Google Play to route through Tor.</string>
-    <string name="settings_proxy_custom_host">SOCKS5 host</string>
-    <string name="settings_proxy_custom_port">Port</string>
-    <string name="settings_proxy_onion_title">Use PGPony onion mirror</string>
+    <string name="settings_proxy_mode_custom">사용자 지정</string>
+    <string name="settings_proxy_orbot_missing">Orbot이 설치되지 않았습니다. Install it from F-Droid or Google Play to route through Tor.</string>
+    <string name="settings_proxy_custom_host">SOCKS5 호스트</string>
+    <string name="settings_proxy_custom_port">포트</string>
+    <string name="settings_proxy_onion_title">PGPony onion 미러 사용하기</string>
     <string name="settings_proxy_onion_subtitle">Reach keys.pgpony.app over its .onion so keyserver traffic never leaves Tor</string>
     <string name="settings_proxy_failclosed_note">When the proxy is unreachable, requests fail rather than falling back to a direct connection.</string>
 
     <!-- 4.0.0 Phase 3 — encrypted keyring backup / restore -->
-    <string name="settings_section_backup">Backup</string>
-    <string name="settings_backup_title">Back up &amp; restore</string>
+    <string name="settings_section_backup">백업</string>
+    <string name="settings_backup_title">백업 및 복구</string>
     <string name="settings_backup_subtitle">Save your whole keyring to an encrypted file, or restore one</string>
-    <string name="backup_screen_title">Backup &amp; Restore</string>
-    <string name="backup_menu_backup_title">Back up my keyring</string>
+    <string name="backup_screen_title">백업 및 복구</string>
+    <string name="backup_menu_backup_title">내 키링 복구하기</string>
     <string name="backup_menu_backup_subtitle">Save all your keys to one encrypted file</string>
-    <string name="backup_menu_restore_title">Restore from a backup</string>
+    <string name="backup_menu_restore_title">벡업 복구하기</string>
     <string name="backup_menu_restore_subtitle">Import keys from a .pgpony backup file</string>
-    <string name="backup_code_heading">Your recovery code</string>
+    <string name="backup_code_heading">당신의 복구 코드</string>
     <string name="backup_code_explain">This code is the only way to open your backup. Write it down and keep it somewhere safe. PGPony can\'t recover it for you.</string>
-    <string name="backup_code_copy">Copy code</string>
-    <string name="backup_code_copied">Copied</string>
+    <string name="backup_code_copy">코드 복사</string>
+    <string name="backup_code_copied">복사됨</string>
     <string name="backup_confirm_label">Re-enter your recovery code</string>
     <string name="backup_confirm_hint">Confirm you\'ve saved it before the file is written.</string>
     <string name="backup_confirm_mismatch">That doesn\'t match the code above</string>
-    <string name="backup_continue">Save backup</string>
-    <string name="backup_working">Working…</string>
-    <string name="backup_saved_title">Backup saved</string>
+    <string name="backup_continue">백업 저장</string>
+    <string name="backup_working">진행 중…</string>
+    <string name="backup_saved_title">백업 저장됨</string>
     <string name="backup_saved_body">Keep your recovery code somewhere safe. You\'ll need it to restore this backup.</string>
-    <string name="restore_code_heading">Enter the recovery code</string>
+    <string name="restore_code_heading">복구 코드를 입력하세요</string>
     <string name="restore_code_explain">Enter the recovery code from when this backup was created.</string>
-    <string name="restore_code_heading_okc">Enter your OpenKeychain backup code</string>
+    <string name="restore_code_heading_okc">OpenKeychain 백업 코드를 입력하세요</string>
     <string name="restore_code_explain_okc">The 36-digit code OpenKeychain showed when you created this backup. It\'ll import all the keys inside.</string>
-    <string name="restore_code_label">Recovery code</string>
-    <string name="restore_run">Restore</string>
-    <string name="restore_done_title">Restore complete</string>
-    <string name="restore_added">Added</string>
-    <string name="restore_upgraded">Upgraded to key pair</string>
-    <string name="restore_updated">Updated</string>
-    <string name="restore_unchanged">Already up to date</string>
-    <string name="restore_failed">Couldn\'t restore</string>
+    <string name="restore_code_label">복구 코드</string>
+    <string name="restore_run">복구</string>
+    <string name="restore_done_title">복구 완료</string>
+    <string name="restore_added">추가됨</string>
+    <string name="restore_upgraded">키쌍으로 업그레이드되었습니다</string>
+    <string name="restore_updated">업데이트되었습니다</string>
+    <string name="restore_unchanged">이미 최신입니다</string>
+    <string name="restore_failed">복구할 수 없습니다</string>
     <string name="restore_settings_applied">Settings restored</string>
     <string name="restore_nothing">No keys were found in this backup.</string>
-    <string name="backup_done">Done</string>
+    <string name="backup_done">완료</string>
     <!-- 4.0.0 Phase 3 — onboarding: three paths (create / import / restore) -->
-    <string name="onboarding_page_import_existing">I already have a key</string>
-    <string name="onboarding_page_restore_backup">Restore from a backup</string>
+    <string name="onboarding_page_import_existing">이미 키가 있습니다</string>
+    <string name="onboarding_page_restore_backup">백업 복구하기</string>
     <!-- 4.0.0 Phase 3 — multi-key import summary (OpenKeychain export-all) -->
     <string name="import_multi_result_format">Imported %1$d keys: %2$d new, %3$d updated, %4$d already present</string>
     <!-- 4.0.0 Phase 3 — OpenKeychain migration card -->
-    <string name="okc_migration_title">Coming from OpenKeychain?</string>
+    <string name="okc_migration_title">OpenKeychain에서 오셨나요?</string>
     <string name="okc_migration_body">Export your keys in OpenKeychain, then pick that file below. They all import at once. For an encrypted OpenKeychain backup (a .sec.pgp file), use Settings → Backup → Restore instead.</string>
     <string name="okc_migration_onboarding_body">Choose \"Restore from a backup\" for an encrypted OpenKeychain backup, or \"I already have a key\" to import an exported key file.</string>
     <!-- 4.3.0 (#26): change key passphrase -->
-    <string name="key_detail_action_change_passphrase">Change passphrase</string>
-    <string name="change_passphrase_sheet_title">Change passphrase</string>
+    <string name="key_detail_action_change_passphrase">비밀구절 바꾸기</string>
+    <string name="change_passphrase_sheet_title">비밀구절 바꾸기</string>
     <string name="change_passphrase_sheet_subtitle">Set, change, or remove the passphrase that protects this key on this device.</string>
-    <string name="change_passphrase_current_label">Current passphrase</string>
-    <string name="change_passphrase_new_label">New passphrase</string>
+    <string name="change_passphrase_current_label">현재 비밀구절</string>
+    <string name="change_passphrase_new_label">새 비밀구절</string>
     <string name="change_passphrase_remove_warning">Leave the new passphrase blank to remove protection. The key will then be stored on this device without a passphrase, and anyone who can use the device can use it.</string>
     <string name="change_passphrase_remove_ack">Store this key without a passphrase</string>
     <string name="change_passphrase_backup_note">Existing backups keep the old passphrase until you export the key again.</string>
-    <string name="change_passphrase_apply">Change</string>
+    <string name="change_passphrase_apply">변경</string>
     <string name="change_passphrase_failed">Could not change the passphrase.</string>
     <!-- 4.3.0 (#31): zip output packaging -->
-    <string name="enc_result_wrap_zip_label">Wrap in .zip</string>
+    <string name="enc_result_wrap_zip_label">.zip으로 압축하기</string>
     <string name="enc_result_wrap_zip_note">Packaging for transport, not encryption. Useful when a channel mangles .gpg or .asc files.</string>
     <!-- 4.3.0 (#31): zip decrypt -->
     <string name="decrypt_zip_no_pgp">No encrypted message found in this .zip.</string>
     <string name="decrypt_zip_multiple">This .zip contains several encrypted files. Extract them and decrypt one at a time.</string>
     <string name="decrypt_zip_failed">Could not read the .zip.</string>
     <!-- 4.3.0 (#36): Key Detail top-bar content descriptions -->
-    <string name="key_detail_show_qr_cd">Show QR code</string>
-    <string name="key_detail_actions_menu_cd">More actions</string>
+    <string name="key_detail_show_qr_cd">QR 코드 보이기</string>
+    <string name="key_detail_actions_menu_cd">더 많은 동작</string>
     <!-- 4.3.0 (#36/§5.5.2): storage-level row -->
-    <string name="key_detail_detail_storage">Storage</string>
-    <string name="key_detail_detail_storage_software">Software keystore</string>
-    <string name="key_detail_detail_storage_card">Hardware security card</string>
+    <string name="key_detail_detail_storage">저장 공간</string>
+    <string name="key_detail_detail_storage_software">소프트웨어 키 저장소</string>
+    <string name="key_detail_detail_storage_card">하드웨어 보안 카드</string>
     <!-- RC1 offline switch (hard gate) -->
-    <string name="settings_section_offline">Offline</string>
-    <string name="settings_offline_toggle_title">Offline mode</string>
+    <string name="settings_section_offline">오프라인</string>
+    <string name="settings_offline_toggle_title">오프라인 모드</string>
     <string name="settings_offline_toggle_subtitle">Turn off every network feature: keyserver lookup, search, and publishing, background key refresh, and the update check. Nothing leaves your device.</string>
     <!-- RC1 offline switch: onboarding offer -->
-    <string name="onboarding_page_offline_toggle_title">Offline mode</string>
+    <string name="onboarding_page_offline_toggle_title">오프라인 모드</string>
     <string name="onboarding_page_offline_toggle_subtitle">Keep PGPony fully offline: no keyserver lookups, no key refresh, no update checks. You can change this later in Settings.</string>
 </resources>
